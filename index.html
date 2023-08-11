@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+	<nav class="md:hidden px-[5em] items-center py-[1em]">
+		<img src="./assets/logo.png"/>
+		<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+		</svg>
+	</nav>
+	<!--Responsive desktop-->
+      <nav class="justify-between px-[5em] items-center text-[#474747] py-[1em] hidden lg:flex">
+        <img src="./assets/logo.png"/>
+        <ul class="flex gap-10 font-bold text-xl ">
+          <li><a href="#" class="hover:text-black">Acceuil</a></li>
+          <li><a href="#" class="hover:text-black">A propos de nous</a></li>
+          <li><a href="#" class="hover:text-black">Chambres</a></li>
+          <li><a href="#" class="hover:text-black">Contact</a></li>
+        </ul>
+
+        <button type="button" name="button" class="text-white p-[1.5rem] w-[13em]  bg-[#1A1A1A] hover:bg-black hover:text-white">Enregistrer</button>
+      </nav>
+    </header>
+    <section>
+      <!--start section 1 -->
+      <div class="h-full w-full flex justify-between py-[2em] mb-[5em]">
+        <div class="bg-white w-[600px] h-[400px] pl-[4em] pt-[2em] flex flex-col gap-5">
+          <p class="text-7xl">Detendez-vous </p>
+          <p class="text-5xl">Dans Notre</p>
+          <p class="text-5xl">Complexe</p>
+          <p class="text-5xl">Luxueux</p>
+          <button type="button" name="button"  class="text-white bg-[#1A1A1A] p-[2em] w-[15em] h-[5em] hover:bg-black hover:text-white">Chambres</button>
+        </div>
+
+        <div class="w-[62em] h-[600px] bg-[url('./assets/Rectangle3.png')] right-0 flex flex-col justify-end absolute -z-10 right-0">
+          <div class=" bg-white opacity-[0.9] h-[8em] w-[44em] flex justify-between items-center px-[5em]">
+            <div>
+              <div class="flex gap-3">
+                <img src="./assets/calendar.png"/>
+                <p class="font-bold">Entree</p>
+              </div>
+              <p class="ml-[3.5em]">Date</p>
+            </div>
+            <div class="h-[3em] w-[1px] bg-black"></div>
+            <div>
+               <div class="flex gap-3">
+                <img src="./assets/calendar.png"/>
+                <p class="font-bold">Sortie</p>
+              </div>
+              <p class="ml-[3.5em]">Date</p>
+            </div>
+            <div class="h-[3em] w-[1px] bg-black"></div>
+            <div>
+               <div class="flex gap-3">
+                <img src="./assets/body.png"/>
+                <p class="font-bold">Nombres</p>
+              </div>
+              <p class="ml-[3.5em]">Ajouter</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--end section 1 -->
+
+      <!--start section 2-->
+      
+      <!--end section 2 -->
+    </section>
+  </body>
+</html>
